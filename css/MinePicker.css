@@ -1,0 +1,107 @@
+body{
+    position: relative;top: 0;bottom: 0;
+    background:linear-gradient(to left ,rgb(128, 236, 250),rgb(7, 124, 139)); 
+    perspective: 600px;
+    transition: all 1s ease-in-out;
+}
+.new_game_and_timing{
+    height: 100px;
+    width: 500px;
+}
+.new_game_and_timing div{
+    display: inline;
+}
+.new_game{
+    height: 50px;
+    width: 130px;
+    background: rgb(7, 124, 139);
+    float: right;
+    font-size: 24px;
+    line-height: 40px;
+    border-radius: 4px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 1px 1px 2px 2px rgba(59, 150, 150, 0.637) ;
+    cursor: pointer;
+}
+.time{
+    height: 50px;
+    width: 130px;
+    background: rgba(162, 228, 236, 0.39);
+    position: absolute;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 4px;
+    background: rgb(7, 124, 139);
+    box-shadow: 1px 1px 2px 2px rgba(59, 150, 150, 0.637) ;
+}
+.try_game{
+    height: 45px;
+    width: 120px;
+    font-size: 24px;
+    line-height: 40px;
+    border-radius: 4px;
+    background: rgba(231, 113, 59, 0.644);
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.lose h1{
+    height: 45px;
+    width: 180px;
+    margin: auto;
+    margin-top: 200px;
+    color: rgba(178, 185, 178, 0.651);
+}
+.lose{
+    height: 500px;
+    width: 1000px;
+    background-color: rgba(0, 0, 0, 0.397);
+    position: absolute;
+    z-index: 1;
+    border-radius: 50px;
+    margin-left: -250px;  
+    visibility:hidden ;
+}
+
+
+.addres{
+    padding-left: 150px;
+    color: #fff;
+    font-size: 33px;
+}
+.contanr{
+    margin: auto;
+    width: 500px;
+    height: 700px;
+}
+.table_1{
+    width: 500px;
+    height: 500px;
+    border: 2px solid rgb(5, 197, 255);
+}
+.table_1 tr :hover{
+    background-color: rgb(149, 230, 255);
+    transition: all 0.3s ease-in-out;
+
+}
+.table_1 tr td{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    position: relative ;top: 0;bottom: 0;left: 0;right: 0;
+    background-color: rgb(5, 197, 255); 
+}
+.table_1 tr td div{
+    width: 100%;
+    height: 100%;
+    position: absolute;top: 0;bottom: 0;left: 0;right: 0;
+    border-radius: 5px;
+    background-color:rgb(16, 167, 212);
+    box-shadow: -0.5px -0.5px 2px 2px rgba(170, 170, 170, 0.582) inset,
+                    0.5px 0.5px 2px 2px rgba(170, 170, 170, 0.582) inset;
+   visibility: hidden;
+   font-size: 35px;
+   text-align: center;
+}
+
